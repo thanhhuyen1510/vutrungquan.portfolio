@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="dataAnalysisGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF8C00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF4500;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <g transform="translate(10, 10) scale(0.96)"> <path d="M 50 30 V 430 H 450" 
+          fill="none" 
+          stroke="url(#dataAnalysisGrad)" 
+          stroke-width="15" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    
+    <rect x="90" y="300" width="60" height="130" 
+          fill="none" 
+          stroke="url(#dataAnalysisGrad)" 
+          stroke-width="15" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    <rect x="210" y="220" width="60" height="210" 
+          fill="none" 
+          stroke="url(#dataAnalysisGrad)" 
+          stroke-width="15" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    <rect x="330" y="140" width="60" height="290" 
+          fill="none" 
+          stroke="url(#dataAnalysisGrad)" 
+          stroke-width="15" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    
+    <path d="M 120 280 L 240 200 L 360 120" 
+          fill="none" 
+          stroke="url(#dataAnalysisGrad)" 
+          stroke-width="15" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    
+    <circle cx="120" cy="280" r="15" 
+            fill="none" 
+            stroke="url(#dataAnalysisGrad)" 
+            stroke-width="15"/>
+    <circle cx="240" cy="200" r="15" 
+            fill="none" 
+            stroke="url(#dataAnalysisGrad)" 
+            stroke-width="15"/>
+    
+    <path d="M 360 120 L 400 80 M 360 120 H 400 V 80" 
+          fill="none" 
+          stroke="url(#dataAnalysisGrad)" 
+          stroke-width="15" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    
+    <g transform="translate(320, 320)">
+      <circle cx="0" cy="0" r="90" 
+              fill="none" 
+              stroke="url(#dataAnalysisGrad)" 
+              stroke-width="18"/>
+      <circle cx="0" cy="0" r="60" 
+              fill="none" 
+              stroke="url(#dataAnalysisGrad)" 
+              stroke-width="12"/>
+      
+      <line x1="60" y1="60" x2="120" y2="120" 
+            stroke="url(#dataAnalysisGrad)" 
+            stroke-width="25" 
+            stroke-linecap="round"/>
+    </g>
+    
+  </g>
+</svg>

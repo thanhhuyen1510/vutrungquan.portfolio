@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fbb03b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e13d27;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Trục tọa độ -->
+  <path d="M45,35 L45,385 L445,385" fill="none" stroke="url(#grad)" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Các cột biểu đồ -->
+  <rect x="110" y="270" width="45" height="115" rx="5" fill="none" stroke="url(#grad)" stroke-width="18"/>
+  <rect x="195" y="210" width="45" height="175" rx="5" fill="none" stroke="url(#grad)" stroke-width="18"/>
+  <rect x="280" y="240" width="45" height="40" rx="5" fill="none" stroke="url(#grad)" stroke-width="18"/>
+  <rect x="365" y="165" width="45" height="220" rx="5" fill="none" stroke="url(#grad)" stroke-width="18"/>
+
+  <!-- Đường line và các điểm nút -->
+  <path d="M110,180 L205,120 L300,160 L395,70" fill="none" stroke="url(#grad)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="205" cy="120" r="15" fill="white" stroke="url(#grad)" stroke-width="12"/>
+  <circle cx="300" cy="160" r="15" fill="white" stroke="url(#grad)" stroke-width="12"/>
+  <path d="M380,75 L405,60 L395,95" fill="none" stroke="url(#grad)" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Kính lúp -->
+  <g transform="translate(200, 200)">
+    <circle cx="110" cy="110" r="85" fill="white" stroke="url(#grad)" stroke-width="20"/>
+    <circle cx="110" cy="110" r="55" fill="none" stroke="url(#grad)" stroke-width="12"/>
+    <line x1="175" y1="175" x2="240" y2="240" stroke="url(#grad)" stroke-width="25" stroke-linecap="round"/>
+  </g>
+</svg>
